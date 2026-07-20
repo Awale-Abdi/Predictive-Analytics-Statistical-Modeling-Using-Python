@@ -187,7 +187,7 @@ Python Notebook/
     Data-Driven Investment Strategy.ipynb
 ```
 
-## 🚀 Getting Started
+## 📋 Replicating the Project
 
 #### Clone the Repository
 
