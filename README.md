@@ -174,13 +174,13 @@ Datasets/
     sp500_index.csv
     sp500_stocks.parquet
 
-Notebook/
-    Data-Driven Investment Strategy.ipynb
-
 Outputs/
     Visualizations
     Performance Metrics
     Strategy Results
+
+Python Notebook/
+    Data-Driven Investment Strategy.ipynb
 ```
 
 ## 🚀 Getting Started
