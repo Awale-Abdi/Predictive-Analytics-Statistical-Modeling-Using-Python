@@ -4,7 +4,7 @@ This project showcases an **end-to-end predictive analytics workflow** built usi
 
 Although the project uses **S&P 500 financial market data** as its case study, the analytical techniques I apply such as exploratory data analysis, statistical modeling, simulation, model evaluation, and systematic experimentation are broadly transferable to operations, manufacturing, healthcare, insurance, marketing, and other data-driven industries. At the same time, the project highlights my ability to perform quantitative financial analysis, portfolio modeling, risk evaluation, and investment strategy assessment.
 
-Using **Python**, statistical analysis, and quantitative modeling, I designed and validated a predictive analytics solution to identify data-driven investment opportunities, evaluate portfolio performance, measure financial risk, and support investment decision-making through systematic backtesting and performance analysis.
+Using **Python**, **AWS S3**, Natural Language Processing, and machine learning techniques, I transformed large-scale social media data into actionable insights that support audience analysis, campaign evaluation, and data-driven communication strategies.
 
 ## 💼 Analytical Goals
 
@@ -34,11 +34,12 @@ The primary goals were to:
 
 #### Data
 
-- **Dataset:** S&P 500 Companies & Historical Stock Prices
-- **Size:** ~15 million data points
-- **Companies:** 503
-- **Historical Records:** ~1.86 million stock price observations
-- **Storage Format:** CSV & Parquet
+- **Dataset:** COVID-19 Twitter Posts
+- **Size:** ~409,915 processed tweets
+- **Original Dataset:** Over 1 million tweets across three Twitter datasets
+- **Platform:** Kaggle
+- **Cloud Storage:** AWS S3
+- **Language:** English
 
 #### Data Engineering
 
@@ -46,7 +47,7 @@ Performed large-scale data preparation by:
 
 - Cleaning and standardizing financial datasets
 - Combining company metadata with historical price data
-- Preparing structured datasets for analysis
+- Organizing datasets within AWS S3 to simulate a production cloud-based analytics workflow
 - Engineering analytical features for performance evaluation
 - Organizing data for efficient exploratory analysis and modeling
 
@@ -148,6 +149,13 @@ Evaluated strategy performance using:
 - Calmar Ratio
 - Portfolio Performance Analysis
 
+#### Cloud Technologies
+
+- Amazon Web Services (AWS)
+- Amazon S3
+- Cloud Data Storage
+- Cloud-based Data Management
+
 ## 💡 What This Project Demonstrates
 
 This project demonstrates the ability to independently design and evaluate a predictive analytics solution using large-scale structured datasets.
@@ -166,49 +174,44 @@ Specifically, it showcases proficiency in:
 
 ## 📁 Repository Structure
 
-```
+```text
 Datasets/
-    sp500_companies.csv
-    sp500_index.csv
-    sp500_stocks.parquet
+    Link to AWS S3 dataset archive
 
 Outputs/
-    Visualizations
-    Performance Metrics
-    Strategy Results
-
-Python Notebook/
-    Data-Driven Investment Strategy.ipynb
+    Link to AWS S3 project deliverables
 ```
+
+The repository uses **Amazon S3** to store both the raw datasets and project deliverables, simulating a cloud-based analytics workflow commonly used in production environments. GitHub contains links to the corresponding S3 resources rather than the files themselves.
 
 ## 📋 Replicating the Project
 
 #### Clone the Repository
 
 ```bash
-git clone https://github.com/Awale-Abdi/Predictive-Analytics-Statistical-Modeling-Python.git
+git clone https://github.com/Awale-Abdi/Natural-Language-Processing-Social-Media-Analytics-Python.git
 ```
 
 #### Open the Project
 
-The repository includes:
+The repository provides links to AWS S3 resources containing:
 
-- All required datasets
-- The complete Jupyter Notebook
-- Project outputs and visualizations
+- Original Twitter datasets
+- Complete Jupyter Notebook
+- Project visualizations
+- Final presentation
 
 Open the notebook located in:
 
 ```text
-Python Notebook/
+Outputs/
 ```
 
 Then launch and run:
 
 ```text
-Data-Driven Investment Strategy - Analyzing Financial Data for Portfolio Optimization.ipynb
+Social Media Analytics - Team 5 Code by Awale Abdi.ipynb
 ```
-
 ## 📬 Contact
 
 **Email**
